@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-setup(name='labse-tools',
+setup(name='labse_tools',
       version="0.1",
       description="Test for pip install git+",
       url="https://github.com/Ernst-Y0ung/LaBSE",
