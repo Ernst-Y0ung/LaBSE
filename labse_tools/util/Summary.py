@@ -4,9 +4,11 @@ from sklearn.cluster import DBSCAN, KMeans
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics import pairwise_distances_argmin_min
 
+
 def printList(arr):
     for item in arr:
         print(item)
+
 
 def calculate_MMR(n, lamb, corpus, corpus_embedding):
     """
@@ -42,6 +44,7 @@ def calculate_MMR(n, lamb, corpus, corpus_embedding):
 
     res_idx = sorted([int(x) for x in result.tolist()])
     return [corpus[x] for x in res_idx]
+
 
 def clustering(corpus, corpus_embedding):
     n_clusters = int(np.ceil(len(corpus_embedding) ** 0.5))

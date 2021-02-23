@@ -47,6 +47,7 @@ class LaBSE:
 
         return result
 
+
 def get_model(model_url, max_seq_length):
     labse_layer = hub.KerasLayer(model_url, trainable=True)
 
@@ -67,4 +68,3 @@ def get_model(model_url, max_seq_length):
 
     # Define model.
     return tf.keras.Model(inputs=[input_word_ids, input_mask, segment_ids], outputs=pooled_output), labse_layer
-
