@@ -1,5 +1,4 @@
 import jieba
-import pandas as pd
 from zhon.hanzi import punctuation
 
 

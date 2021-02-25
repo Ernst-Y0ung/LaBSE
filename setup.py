@@ -5,7 +5,12 @@ setup(name='labse_tools',
       description="Test for pip install git+",
       url="https://github.com/Ernst-Y0ung/LaBSE",
       install_requires=[
-            'bert-for-tf2', 'jieba', 'numpy', 'pandas', 'tensorflow>=2.0', 'tensorflow_hub', 'zhon'
+            'bert-for-tf2',
+            'jieba',
+            'numpy',
+            'tensorflow>=2.0',
+            'tensorflow_hub',
+            'zhon'
       ],
       packages=find_packages(),
       )
