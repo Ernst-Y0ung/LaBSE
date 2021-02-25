@@ -6,6 +6,11 @@ from sklearn.metrics import pairwise_distances_argmin_min
 
 
 def printList(arr):
+    """
+    Helper function
+    :param arr: A list
+    :return: None
+    """
     for item in arr:
         print(item)
 
@@ -15,8 +20,8 @@ def calculate_MMR(n, lamb, corpus, corpus_embedding):
     Maximal Marginal Relevance
     :param n: Number of output sentences
     :param lamb: Lambda in the MMR formula
-    :param corpus: Original text
-    :param corpus_embedding: The LaBSE embedding of the original text
+    :param corpus: List of texts
+    :param corpus_embedding: List of the texts' LaBSE embedding
     :return: The summary text list
     """
     result = np.array([])
@@ -47,6 +52,12 @@ def calculate_MMR(n, lamb, corpus, corpus_embedding):
 
 
 def clustering(corpus, corpus_embedding):
+    """
+    Clustering using k-means
+    :param corpus: List of texts
+    :param corpus_embedding: List of the texts' LaBSE embedding
+    :return: The summary text list
+    """
     n_clusters = int(np.ceil(len(corpus_embedding) ** 0.5))
 
     model = KMeans(n_clusters=n_clusters)
