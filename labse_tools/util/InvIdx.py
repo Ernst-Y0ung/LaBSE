@@ -1,22 +1,27 @@
 import jieba
+import jieba.posseg as pseg
+import re
 from zhon.hanzi import punctuation
 
 
-def tokenize(corpus_raw, stopwords):
+def tokenize(corpus_raw, stopwords, flags):
     """
     Tokenize the corpus list
     :param corpus_raw: List of texts that are not preprocessed
     :param stopwords: List of stopwords
+    :param flags: A list of pos-tags for filtering purpose
     :return: tokenized corpus
     """
     corpus = []
-    for i in range(len(corpus_raw)):
-        corpus_raw[i] = corpus_raw[i].replace('\n', '')
-        seg_list = jieba.cut(corpus_raw[i], cut_all=False)
+    jieba.enable_paddle()
+    for article in corpus_raw:
+        words = pseg.cut(article, use_paddle=True)
         token_list = []
-        for token in seg_list:
-            if not hasNumbers(token) and token not in punctuation and token not in stopwords and len(token) > 2:
-                token_list.append(token)
+        for word, flag in words:
+            word = re.sub("[{}]+".format(punctuation), "", word)
+            word = word.strip()
+            if word not in stopwords and len(word) > 2 and word not in punctuation and flag in flags:
+                token_list.append(word)
         corpus.append(token_list)
     return corpus
 

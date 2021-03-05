@@ -1,0 +1,106 @@
+Looking in indexes: https://pypi.mirrors.ustc.edu.cn/simple/
+Collecting tensorflow
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/68/8c/42bbb31a25a708e2e24881724ec7bcea05530492de8b1a2e0d8fe43eb2f6/tensorflow-2.4.1-cp37-cp37m-win_amd64.whl (370.7 MB)
+Collecting astunparse~=1.6.3
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/2b/03/13dde6512ad7b4557eb792fbcf0c653af6076b81e5941d36ec61f7ce6028/astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
+Collecting absl-py~=0.10
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/bc/58/0aa6fb779dc69cfc811df3398fcbeaeefbf18561b6e36b185df0782781cc/absl_py-0.11.0-py3-none-any.whl (127 kB)
+Collecting opt-einsum~=3.3.0
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/bc/19/404708a7e54ad2798907210462fd950c3442ea51acc8790f3da48d2bee8b/opt_einsum-3.3.0-py3-none-any.whl (65 kB)
+Collecting gast==0.3.3
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/d6/84/759f5dd23fec8ba71952d97bcc7e2c9d7d63bdc582421f3cd4be845f0c98/gast-0.3.3-py2.py3-none-any.whl (9.7 kB)
+Collecting tensorflow
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/2f/45/68e41b073b17c49dc9f02648acfd43b029072786a229465c27e9554c993e/tensorflow-2.4.0-cp37-cp37m-win_amd64.whl (370.7 MB)
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/4c/9f/cf52cf2e4b5d608a99a943b9be205fff85f1ee1d3c8174b45fb9bff8c263/tensorflow-2.3.2-cp37-cp37m-win_amd64.whl (342.5 MB)
+Collecting six>=1.12.0
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/ee/ff/48bde5c0f013094d729fe4b0316ba2a24774b3ff1c52d924a8a4cb04078a/six-1.15.0-py2.py3-none-any.whl (10 kB)
+Collecting tensorboard<3,>=2.3.0
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/64/21/eebd23060763fedeefb78bc2b286e00fa1d8abda6f70efa2ee08c28af0d4/tensorboard-2.4.1-py3-none-any.whl (10.6 MB)
+Collecting wrapt>=1.11.1
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/82/f7/e43cefbe88c5fd371f4cf0cf5eb3feccd07515af9fd6cf7dbf1d1793a797/wrapt-1.12.1.tar.gz (27 kB)
+Collecting grpcio>=1.8.6
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/16/00/f8e3da3b9ab58756ad46521a7dbde218a42e3e6efdeeedc2a044ac5ee1c0/grpcio-1.36.1-cp37-cp37m-win_amd64.whl (3.0 MB)
+Collecting h5py<2.11.0,>=2.10.0
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/a1/6b/7f62017e3f0b32438dd90bdc1ff0b7b1448b6cb04a1ed84f37b6de95cd7b/h5py-2.10.0-cp37-cp37m-win_amd64.whl (2.5 MB)
+Collecting termcolor>=1.1.0
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/8a/48/a76be51647d0eb9f10e2a4511bf3ffb8cc1e6b14e9e4fab46173aa79f981/termcolor-1.1.0.tar.gz (3.9 kB)
+Collecting google-pasta>=0.1.8
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/a3/de/c648ef6835192e6e2cc03f40b19eeda4382c49b5bafb43d88b931c4c74ac/google_pasta-0.2.0-py3-none-any.whl (57 kB)
+Collecting numpy<1.19.0,>=1.16.0
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/e4/01/7a26148f7de9eb6c27f95b29eba16b7e820827cb9ebaae182d7483e44711/numpy-1.18.5-cp37-cp37m-win_amd64.whl (12.7 MB)
+Collecting tensorflow-estimator<2.4.0,>=2.3.0
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/e9/ed/5853ec0ae380cba4588eab1524e18ece1583b65f7ae0e97321f5ff9dfd60/tensorflow_estimator-2.3.0-py2.py3-none-any.whl (459 kB)
+Collecting protobuf>=3.9.2
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/9d/f2/b0b953aaaff074923819128158d75885207113b89343211b6bd83d5712ce/protobuf-3.15.5-cp37-cp37m-win_amd64.whl (904 kB)
+Collecting tensorflow
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/5d/6a/9669836f813b73fe5abf5e9f118ccc9b7fb060f02789d385825b0943f9c8/tensorflow-2.3.1-cp37-cp37m-win_amd64.whl (342.5 MB)
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/c6/dc/9030097e5774fe02d1be3cb42eb54125d2c0607a6c11172f1dcad2b7fdcc/tensorflow-2.3.0-cp37-cp37m-win_amd64.whl (342.5 MB)
+Collecting scipy==1.4.1
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/61/51/046cbc61c7607e5ecead6ff1a9453fba5e7e47a5ea8d608cc7036586a5ef/scipy-1.4.1-cp37-cp37m-win_amd64.whl (30.9 MB)
+Collecting tensorflow
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/67/6a/8fb34cc812dccfb086e7d6605a49821bc788ebe6a2cf32e18dc452760a08/tensorflow-2.2.2-cp37-cp37m-win_amd64.whl (459.2 MB)
+Collecting tensorboard<2.3.0,>=2.2.0
+  Downloading https://mirrors.bfsu.edu.cn/pypi/web/packages/1d/74/0a6fcb206dcc72a6da9a62dd81784bfdbff5fedb099982861dc2219014fb/tensorboard-2.2.2-py3-none-any.whl (3.0 MB)
+Collecting tensorflow
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/44/60/6078a2cbd69d948004fd2501ac243e98ab5f2f79d18c2416590cd1f316a1/tensorflow-2.2.1-cp37-cp37m-win_amd64.whl (459.2 MB)
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/af/50/d7da24189d95e2084bb1cc350a8e4acdf1b0c9b3d57def7a348f0d9cb062/tensorflow-2.2.0-cp37-cp37m-win_amd64.whl (459.2 MB)
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/26/b2/b32ba26cec783a09b2fae19ed9650dc891c97571a34f1e3df90444c44c0a/tensorflow-2.1.3-cp37-cp37m-win_amd64.whl (355.9 MB)
+Collecting tensorflow-estimator<2.2.0,>=2.1.0rc0
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/18/90/b77c328a1304437ab1310b463e533fa7689f4bfc41549593056d812fab8e/tensorflow_estimator-2.1.0-py2.py3-none-any.whl (448 kB)
+Collecting tensorboard<2.2.0,>=2.1.0
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/d9/41/bbf49b61370e4f4d245d4c6051dfb6db80cec672605c91b1652ac8cc3d38/tensorboard-2.1.1-py3-none-any.whl (3.8 MB)
+Collecting tensorflow
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/e0/85/eef1f267995a2f8f3879d8353ae91b36b6ac389fb790590d93b4d9023bba/tensorflow-2.1.2-cp37-cp37m-win_amd64.whl (355.9 MB)
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/5b/27/03462468cdc9416510ae6b25faa09ec66a58d6a64c4c344b2ed6aba9d4c7/tensorflow-2.1.1-cp37-cp37m-win_amd64.whl (355.9 MB)
+Collecting numpy<2.0,>=1.16.0
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/3b/8f/68b72c57e59591925432f4615309732d5fc5ec0bb0890540e2aa1557172f/numpy-1.20.1-cp37-cp37m-win_amd64.whl (13.6 MB)
+Collecting tensorflow
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/34/d5/ce8c17971067c0184c9045112b755be5461d5ce5253ef65a367e1298d7c5/tensorflow-2.1.0-cp37-cp37m-win_amd64.whl (355.8 MB)
+Collecting keras-applications>=1.0.8
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/71/e3/19762fdfc62877ae9102edf6342d71b28fbfd9dea3d2f96a882ce099b03f/Keras_Applications-1.0.8-py3-none-any.whl (50 kB)
+Collecting tensorflow
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/04/91/8715f1fdae8cbc068690c86318dbce19c030778b5dbb8a5be961ea4f6a8f/tensorflow-2.0.4-cp37-cp37m-win_amd64.whl (48.1 MB)
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/6a/8e/f5e0b07452c4e255339bd2030b44815c06d9de528db39dbdb78cf73c3a2f/tensorflow-2.0.3-cp37-cp37m-win_amd64.whl (48.1 MB)
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/1a/ed/318d202d5adb43341382ef2deb8cf268265184b6b3c0a876c7445d296a4a/tensorflow-2.0.2-cp37-cp37m-win_amd64.whl (48.1 MB)
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/15/b0/4bfaaa6d598fd42c0db0b0d8ebac8ec23a929cdff1098b5f9b5c8cc79253/tensorflow-2.0.1-cp37-cp37m-win_amd64.whl (48.1 MB)
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/54/5f/e1b2d83b808f978f51b7ce109315154da3a3d4151aa59686002681f2e109/tensorflow-2.0.0-cp37-cp37m-win_amd64.whl (48.1 MB)
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/66/f6/77902314db87faa9860dd091649187b806de363da329ea8321cf1dd8bd1a/tensorflow-1.15.5-cp37-cp37m-win_amd64.whl (55.3 MB)
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/32/45/3b7e783fe5aef18ea8da47b27fa02bd14c64f0f983b2a979bf80848e23c6/tensorflow-1.15.4-cp37-cp37m-win_amd64.whl (55.3 MB)
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/1d/00/142702caeaa54201e5eae2bfcdf8cc1d86e650db0251eb0005516c8f8dd6/tensorflow-1.15.3-cp37-cp37m-win_amd64.whl (55.3 MB)
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/40/18/74348263763453c9e2b64b057ec4294b7764ee46cfea064340cb8f4ace99/tensorflow-1.15.2-cp37-cp37m-win_amd64.whl (55.3 MB)
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/94/a9/7a9ff9b51a6acf5cf113e79e4cfd68a88045321cfc65802c16169dfcd041/tensorflow-1.15.0-cp37-cp37m-win_amd64.whl (295.1 MB)
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/f7/08/25e47a53692c2e0dcd2211a493ddfe9007a5cd92e175d6dffa6169a0b392/tensorflow-1.14.0-cp37-cp37m-win_amd64.whl (68.3 MB)
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/ee/89/5b4f6d1dc1d40307feff9068a03484e81d2441099d24a400c95127188783/tensorflow-1.13.2-cp37-cp37m-win_amd64.whl (63.1 MB)
+  Using cached https://mirrors.bfsu.edu.cn/pypi/web/packages/7b/14/e4538c2bc3ae9f4ce6f6ce7ef1180da05abc4a617afba798268232b01d0d/tensorflow-1.13.1-cp37-cp37m-win_amd64.whl (63.1 MB)
+
+The conflict is caused by:
+    tensorflow 2.4.1 depends on keras-preprocessing~=1.1.2
+    tensorflow 2.4.0 depends on keras-preprocessing~=1.1.2
+    tensorflow 2.3.2 depends on keras-preprocessing<1.2 and >=1.1.1
+    tensorflow 2.3.1 depends on keras-preprocessing<1.2 and >=1.1.1
+    tensorflow 2.3.0 depends on keras-preprocessing<1.2 and >=1.1.1
+    tensorflow 2.2.2 depends on keras-preprocessing>=1.1.0
+    tensorflow 2.2.1 depends on keras-preprocessing>=1.1.0
+    tensorflow 2.2.0 depends on keras-preprocessing>=1.1.0
+    tensorflow 2.1.3 depends on keras-preprocessing==1.1.0
+    tensorflow 2.1.2 depends on keras-preprocessing==1.1.0
+    tensorflow 2.1.1 depends on keras-preprocessing==1.1.0
+    tensorflow 2.1.0 depends on keras-preprocessing>=1.1.0
+    tensorflow 2.0.4 depends on keras-preprocessing>=1.0.5
+    tensorflow 2.0.3 depends on keras-preprocessing>=1.0.5
+    tensorflow 2.0.2 depends on keras-preprocessing>=1.0.5
+    tensorflow 2.0.1 depends on keras-preprocessing>=1.0.5
+    tensorflow 2.0.0 depends on keras-preprocessing>=1.0.5
+    tensorflow 1.15.5 depends on keras-preprocessing>=1.0.5
+    tensorflow 1.15.4 depends on keras-preprocessing>=1.0.5
+    tensorflow 1.15.3 depends on keras-preprocessing>=1.0.5
+    tensorflow 1.15.2 depends on keras-preprocessing>=1.0.5
+    tensorflow 1.15.0 depends on keras-preprocessing>=1.0.5
+    tensorflow 1.14.0 depends on keras-preprocessing>=1.0.5
+    tensorflow 1.13.2 depends on keras-preprocessing>=1.0.5
+    tensorflow 1.13.1 depends on keras-preprocessing>=1.0.5
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+

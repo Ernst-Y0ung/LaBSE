@@ -8,6 +8,7 @@ setup(name='labse_tools',
             'bert-for-tf2',
             'jieba',
             'numpy',
+            'sklearn',
             'tensorflow>=2.0',
             'tensorflow_hub',
             'zhon'
