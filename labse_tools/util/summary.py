@@ -1,11 +1,11 @@
 import numpy as np
 import operator
-from sklearn.cluster import DBSCAN, KMeans
+from sklearn.cluster import KMeans
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics import pairwise_distances_argmin_min
 
 
-def printList(arr):
+def print_list(arr):
     """
     Helper function
     :param arr: A list
@@ -15,7 +15,7 @@ def printList(arr):
         print(item)
 
 
-def calculate_MMR(n, lamb, corpus, corpus_embedding):
+def calculate_mmr(n, lamb, corpus, corpus_embedding):
     """
     Maximal Marginal Relevance
     :param n: Number of output sentences
