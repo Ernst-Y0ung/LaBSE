@@ -4,7 +4,7 @@ import re
 from zhon.hanzi import punctuation
 
 
-def hasNumbers(inputString):
+def has_numbers(inputString):
     """
     Helper function that checks if a string contains at least one digit
     :param inputString: String to check
